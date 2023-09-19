@@ -1,0 +1,269 @@
+body{
+    background-color: rgb(186, 133, 93);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0px
+}
+
+header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    flex-wrap: wrap;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-1{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.nav-list li{
+    display: inline;
+    margin-right: 10px;
+    flex-direction: row-reverse;
+
+}
+
+.ferrari{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.body-galeria{
+    background-color: rgb(186, 133, 93);
+}
+
+.contenido{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(80, 129, 130, 0.642);
+
+}
+
+.galeria-text{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgba(80, 129, 130, 0.642);
+    padding: 5px;
+}
+
+
+
+.contacto-body{
+    background-color: rgb(186, 133, 93);
+}
+.text-formulario{
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+
+}
+
+.historia{
+    text-align: center;
+    margin-left: 20px;
+
+}
+
+
+.tituloin{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.historia-titulo{
+    color: rgb(53, 119, 136);
+    text-align: center;
+
+}
+
+
+
+
+
+
+.whatsapp {
+    width: 80px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+.footer-text {
+    margin-left: 20px;
+}
+
+.p-historia {
+    font-family: 'Roboto Slab', serif;
+}
+
+.historia-photo{
+    height: 2fr;
+    width: 2fr;
+    padding-top: 20px;
+
+}
+
+.esc-in-ferrari{
+    height: 2fr;
+    width: 2fr;
+    padding-top: 20px;
+}
+
+.first-car{
+    height: 2fr;
+    width: 2fr;
+    padding-top: 20px;
+}
+
+.h-ferrari{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.div-index{
+    margin-left: 20px;
+    padding: 5px;
+    background-color: beige;
+    width: 550px; /* ancho */
+    height: 350px; /* alto */ 
+    font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Roboto Slab', serif;
+text-align: center;
+display: flex;
+}
+
+
+
+
+
+.h1-tienda{
+    font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Teko', sans-serif;
+text-align: center;
+}
+
+.tienda-img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.card-text{
+    font-family: 'Major Mono Display', monospace;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Teko', sans-serif;
+
+}
+
+.card{
+    background-color: rgba(76, 126, 79, 0.859);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+
+.div-padre{
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.div-padre-historia{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.galeria-foto{
+    height: 450px;
+    width: 260px;
+    margin: 15px;
+    justify-content: space-evenly;
+}
+
+.div-padre-foto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.index-foto{
+    height: 350px;
+    width: 550px;
+}
+
+.div-index-padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; /* 2 columnas */
+grid-template-rows: 0.01fr 4fr 0.01fr 4fr 0.1fr 4fr; /* 6 filas */
+column-gap: 10px;
+row-gap: 15px;
+
+}
+
+.p-historia1{
+    display: grid;
+    background-color: rgba(35, 51, 194, 0.419);
+
+}
+
+.p-historia2{
+    display: grid;
+    background-color: rgba(35, 51, 194, 0.419);
+
+}
+
+.p-historia3{
+    display: grid;
+    background-color: rgba(35, 51, 194, 0.419);
+
+}
+
+
+
+
+
+
+
+
+
+
